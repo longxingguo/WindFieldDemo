@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FF4FE822FD513E0057186B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF4FE722FD513E0057186B /* AppDelegate.m */; };
+		53FF4FEB22FD513E0057186B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF4FEA22FD513E0057186B /* ViewController.m */; };
+		53FF4FEE22FD513E0057186B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FF4FEC22FD513E0057186B /* Main.storyboard */; };
+		53FF4FF022FD51400057186B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FF4FEF22FD51400057186B /* Assets.xcassets */; };
+		53FF4FF322FD51400057186B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FF4FF122FD51400057186B /* LaunchScreen.storyboard */; };
+		53FF4FF622FD51400057186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF4FF522FD51400057186B /* main.m */; };
+		53FF500422FD55720057186B /* WeakTargetTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF4FFD22FD55720057186B /* WeakTargetTimer.m */; };
+		53FF500522FD55720057186B /* WindMotionStreakView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF4FFE22FD55720057186B /* WindMotionStreakView.m */; };
+		53FF500622FD55720057186B /* WindParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF500122FD55720057186B /* WindParticle.m */; };
+		53FF500722FD55720057186B /* WindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF500222FD55720057186B /* WindView.m */; };
+		53FF500A22FD56A20057186B /* TYWindDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF500922FD56A20057186B /* TYWindDetailModel.m */; };
+		53FF500C22FD5A7A0057186B /* wind.json in Resources */ = {isa = PBXBuildFile; fileRef = 53FF500B22FD5A7A0057186B /* wind.json */; };
+		53FF500E22FD5B9E0057186B /* IMG_1322.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 53FF500D22FD5B9E0057186B /* IMG_1322.JPG */; };
+		E3BF90871FEFD06A98521BA0 /* libPods-WindField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 667374548483F23D73D8C359 /* libPods-WindField.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53FF4FE322FD513E0057186B /* WindField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FF4FE622FD513E0057186B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53FF4FE722FD513E0057186B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53FF4FE922FD513E0057186B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53FF4FEA22FD513E0057186B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53FF4FED22FD513E0057186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53FF4FEF22FD51400057186B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53FF4FF222FD51400057186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53FF4FF422FD51400057186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FF4FF522FD51400057186B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53FF4FFC22FD55720057186B /* WeakTargetTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakTargetTimer.h; sourceTree = "<group>"; };
+		53FF4FFD22FD55720057186B /* WeakTargetTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakTargetTimer.m; sourceTree = "<group>"; };
+		53FF4FFE22FD55720057186B /* WindMotionStreakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindMotionStreakView.m; sourceTree = "<group>"; };
+		53FF4FFF22FD55720057186B /* WindMotionStreakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindMotionStreakView.h; sourceTree = "<group>"; };
+		53FF500022FD55720057186B /* WindParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindParticle.h; sourceTree = "<group>"; };
+		53FF500122FD55720057186B /* WindParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindParticle.m; sourceTree = "<group>"; };
+		53FF500222FD55720057186B /* WindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindView.m; sourceTree = "<group>"; };
+		53FF500322FD55720057186B /* WindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindView.h; sourceTree = "<group>"; };
+		53FF500822FD56A20057186B /* TYWindDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWindDetailModel.h; sourceTree = "<group>"; };
+		53FF500922FD56A20057186B /* TYWindDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWindDetailModel.m; sourceTree = "<group>"; };
+		53FF500B22FD5A7A0057186B /* wind.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wind.json; sourceTree = "<group>"; };
+		53FF500D22FD5B9E0057186B /* IMG_1322.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1322.JPG; sourceTree = "<group>"; };
+		667374548483F23D73D8C359 /* libPods-WindField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WindField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3E500653CA167394D3DA83 /* Pods-WindField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindField.release.xcconfig"; path = "Target Support Files/Pods-WindField/Pods-WindField.release.xcconfig"; sourceTree = "<group>"; };
+		7D6A468D02DB9BFEAAC7ACC4 /* Pods-WindField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindField.debug.xcconfig"; path = "Target Support Files/Pods-WindField/Pods-WindField.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FF4FE022FD513E0057186B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BF90871FEFD06A98521BA0 /* libPods-WindField.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FF4FDA22FD513E0057186B = {
+			isa = PBXGroup;
+			children = (
+				53FF4FE522FD513E0057186B /* WindField */,
+				53FF4FE422FD513E0057186B /* Products */,
+				599E87A9E4AED2C45FBCDDEC /* Pods */,
+				AFB6E24AC98A9D054DE88F2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53FF4FE422FD513E0057186B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FF4FE322FD513E0057186B /* WindField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FF4FE522FD513E0057186B /* WindField */ = {
+			isa = PBXGroup;
+			children = (
+				53FF4FE622FD513E0057186B /* AppDelegate.h */,
+				53FF4FE722FD513E0057186B /* AppDelegate.m */,
+				53FF4FE922FD513E0057186B /* ViewController.h */,
+				53FF4FEA22FD513E0057186B /* ViewController.m */,
+				53FF4FFC22FD55720057186B /* WeakTargetTimer.h */,
+				53FF4FFD22FD55720057186B /* WeakTargetTimer.m */,
+				53FF4FFF22FD55720057186B /* WindMotionStreakView.h */,
+				53FF4FFE22FD55720057186B /* WindMotionStreakView.m */,
+				53FF500022FD55720057186B /* WindParticle.h */,
+				53FF500122FD55720057186B /* WindParticle.m */,
+				53FF500322FD55720057186B /* WindView.h */,
+				53FF500222FD55720057186B /* WindView.m */,
+				53FF500822FD56A20057186B /* TYWindDetailModel.h */,
+				53FF500922FD56A20057186B /* TYWindDetailModel.m */,
+				53FF500D22FD5B9E0057186B /* IMG_1322.JPG */,
+				53FF500B22FD5A7A0057186B /* wind.json */,
+				53FF4FEC22FD513E0057186B /* Main.storyboard */,
+				53FF4FEF22FD51400057186B /* Assets.xcassets */,
+				53FF4FF122FD51400057186B /* LaunchScreen.storyboard */,
+				53FF4FF422FD51400057186B /* Info.plist */,
+				53FF4FF522FD51400057186B /* main.m */,
+			);
+			path = WindField;
+			sourceTree = "<group>";
+		};
+		599E87A9E4AED2C45FBCDDEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D6A468D02DB9BFEAAC7ACC4 /* Pods-WindField.debug.xcconfig */,
+				6C3E500653CA167394D3DA83 /* Pods-WindField.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFB6E24AC98A9D054DE88F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667374548483F23D73D8C359 /* libPods-WindField.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FF4FE222FD513E0057186B /* WindField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FF4FF922FD51400057186B /* Build configuration list for PBXNativeTarget "WindField" */;
+			buildPhases = (
+				A77AD690657B861682E432C8 /* [CP] Check Pods Manifest.lock */,
+				53FF4FDF22FD513E0057186B /* Sources */,
+				53FF4FE022FD513E0057186B /* Frameworks */,
+				53FF4FE122FD513E0057186B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindField;
+			productName = WindField;
+			productReference = 53FF4FE322FD513E0057186B /* WindField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FF4FDB22FD513E0057186B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "龙兴国";
+				TargetAttributes = {
+					53FF4FE222FD513E0057186B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53FF4FDE22FD513E0057186B /* Build configuration list for PBXProject "WindField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53FF4FDA22FD513E0057186B;
+			productRefGroup = 53FF4FE422FD513E0057186B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FF4FE222FD513E0057186B /* WindField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FF4FE122FD513E0057186B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FF4FF322FD51400057186B /* LaunchScreen.storyboard in Resources */,
+				53FF4FF022FD51400057186B /* Assets.xcassets in Resources */,
+				53FF4FEE22FD513E0057186B /* Main.storyboard in Resources */,
+				53FF500E22FD5B9E0057186B /* IMG_1322.JPG in Resources */,
+				53FF500C22FD5A7A0057186B /* wind.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A77AD690657B861682E432C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FF4FDF22FD513E0057186B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FF500422FD55720057186B /* WeakTargetTimer.m in Sources */,
+				53FF500A22FD56A20057186B /* TYWindDetailModel.m in Sources */,
+				53FF4FEB22FD513E0057186B /* ViewController.m in Sources */,
+				53FF4FF622FD51400057186B /* main.m in Sources */,
+				53FF500522FD55720057186B /* WindMotionStreakView.m in Sources */,
+				53FF4FE822FD513E0057186B /* AppDelegate.m in Sources */,
+				53FF500622FD55720057186B /* WindParticle.m in Sources */,
+				53FF500722FD55720057186B /* WindView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53FF4FEC22FD513E0057186B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FF4FED22FD513E0057186B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53FF4FF122FD51400057186B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FF4FF222FD51400057186B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53FF4FF722FD51400057186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53FF4FF822FD51400057186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53FF4FFA22FD51400057186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6A468D02DB9BFEAAC7ACC4 /* Pods-WindField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WindField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huawang.WindField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53FF4FFB22FD51400057186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3E500653CA167394D3DA83 /* Pods-WindField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WindField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huawang.WindField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FF4FDE22FD513E0057186B /* Build configuration list for PBXProject "WindField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FF4FF722FD51400057186B /* Debug */,
+				53FF4FF822FD51400057186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FF4FF922FD51400057186B /* Build configuration list for PBXNativeTarget "WindField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FF4FFA22FD51400057186B /* Debug */,
+				53FF4FFB22FD51400057186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FF4FDB22FD513E0057186B /* Project object */;
+}
